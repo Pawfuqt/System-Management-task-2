@@ -7,57 +7,61 @@
 - [Composer]
 - [Node.js]
 - [Git](https://github.com/PF201Object/Abarquez_Laravel1-IPT209)
-- [Postman] (https://www.postman.com/ronbell112323-1778467/ronbell-abarquez-s-workspace/folder/52439620-018d84e4-8f01-40dc-bc80-4ba5d9b0f589)
+- [Postman] (https://www.postman.com/mendozabenedick78-9834105/workspace/benedick-mendoza-s-workspace/collection/53546803-bb454ef9-a014-4f8e-b660-e5f922f5ca96?action=share&creator=53546803)
 
 ## Project Feature List: Scholarship Management System
 
-Developer: Ronbell B. Abarquez (BSIT - 2D)
+Scholarship Management System (SMS)
+Developer: Benedick Mendoza
 
-1. Authentication
+Section: BSIT - 2D
 
-Actions: Register Account, Login, Logout.
+Project Overview
+This Scholarship Management System is designed to automate the lifecycle of educational grants. Developed using Laravel 10 and Vue.js, the system focuses on efficient data management, secure application processing, and clear administrative workflows for both applicants and reviewers.
 
-2. Applicant Management
+Core System Modules
+1. Identity and Access Management
+User Authentication: Robust registration and login/logout protocols to ensure account security.
 
-2.1 Applicant Records
+Access Control: Managing user sessions and protecting sensitive applicant data.
 
-Actions: Display All Applicants, View Applicant Details, Add New Applicant, Edit Applicant Information, Delete Applicant Record, Search Applicant.
+2. Applicant Record Management
+Unified Dashboard: Centralized view for monitoring all registered student profiles.
 
-3. Scholarship Management
+Data Operations: * Implementation of full CRUD functionality (Create, Read, Update, Delete) for applicant profiles.
 
-3.1 Scholarship Programs
+Advanced search and filtering tools for rapid data retrieval.
 
-Actions: Add Scholarship Program, Update Scholarship Program, Delete Scholarship Program, View Scholarship Programs.
+3. Scholarship Program Architecture
+Program Management: Tools to define, update, and deploy diverse scholarship categories.
 
-3.2 Scholarship Requirements
+Requirement Logic: * Ability to set mandatory criteria for each specific program.
 
-Actions: Add Requirement, Update Requirement, Delete Requirement, View Requirements.
+Management of eligibility prerequisites to ensure compliance.
 
-4. Application Processing
+4. Application Processing Pipeline
+Submission Workflow: Allows eligible students to apply for active scholarship programs.
 
-4.1 Application Review
+Evaluation Interface: Administrative tools for reviewing, approving, or rejecting submissions.
 
-Actions: Submit Application, Review Application, Approve Application, Reject Application, Update Application Status.
+Lifecycle Tracking: Real-time updates on application status changes.
 
-5. Document Management
+5. Digital Document Repository
+Secure File Handling: Encrypted upload and retrieval for transcripts and identification documents.
 
-5.1 Applicant Documents
+Maintenance: Capabilities to update or remove documents to maintain accurate records.
 
-Actions: Upload Documents, View Documents, Update Documents, Delete Documents.
+Technical Configuration
+Backend Framework: Laravel 10 (PHP)
 
+Frontend Integration: Vue.js
 
-## Additional Configuration
+Reference: For advanced service configuration, refer to the official Laravel Documentation.
 
-- To configure other services or features, refer to the Laravel documentation: [https://laravel.com/docs](https://laravel.com/docs)
+Troubleshooting and Maintenance
+If you encounter runtime errors or environment setup issues, please verify your .env settings or refer to the repository’s issue tracker. Ensure that all dependencies are updated via Composer and NPM.
 
-## Troubleshooting
+Project Governance
+Contributions: Please refer to CONTRIBUTING.md for coding standards and pull request protocols.
 
-If you encounter any issues during setup or running the application, please check the Laravel and Vue.js documentation or open an issue in this repository.
-
-## Contributing
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct and the process for submitting pull requests.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+License: This software is distributed under the MIT License.
