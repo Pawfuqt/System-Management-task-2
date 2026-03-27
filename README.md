@@ -6,7 +6,7 @@
 - [Visual Studio Code](recommended code editor)
 - [Composer]
 - [Node.js]
-- [Git](https://github.com/PF201Object/Abarquez_Laravel1-IPT209)
+- [Git](https://github.com/Pawfuqt/System-Management-task-2.git)
 - [Postman] (https://www.postman.com/mendozabenedick78-9834105/workspace/benedick-mendoza-s-workspace/collection/53546803-bb454ef9-a014-4f8e-b660-e5f922f5ca96?action=share&creator=53546803)
 
 ## Project Feature List: Scholarship Management System
